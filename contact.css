@@ -33,38 +33,39 @@
   /* background-color: yellow; */
   width: 90vw;
 }
-.infoContainer {
-  /* background-color: rgb(73, 172, 86); */
-  height: 58vh;
-  width: 80vw;
-  margin: 144px auto;
-  display: flex;
-  justify-content: space-around;
+.contactForm {
+  padding: 0 34px;
+  padding-top: 144px;
+  font-family: "Fira Sans", sans-serif;
 }
-.devInfo {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+
+.contactForm h1 {
   font-family: "Source Code Pro", monospace;
+  padding: 12px 0;
 }
-.hello {
-  font-size: 55px;
+.contactForm form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
 }
-.name {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: "Fira Sans", sans-serif;
+.contactForm form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
 }
-.about {
-  font-size: 40px;
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
 }
-.moreabout {
-  font-size: 22px;
-  margin-top: 23px;
-  font-family: "Fira Sans", sans-serif;
+#form-check {
+  flex-direction: row;
 }
-.buttons {
-  margin-top: 34px;
+#form-check-input {
+  width: 24px;
+  margin: 3px 0;
 }
 .btn {
   padding: 9px 14px;
@@ -79,8 +80,4 @@
 .btn:hover {
   color: dodgerblue;
   background-color: white;
-}
-.devPic img {
-  width: 381px;
-  height: 58vh;
 }
